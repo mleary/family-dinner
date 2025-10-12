@@ -1,0 +1,79 @@
+---
+title: "Quick Start Guide"
+format: html
+---
+
+## Quick Start Guide for Family Dinner Tracker
+
+### Step 1: Installation
+
+Make sure you have R installed, then install the required packages:
+
+```r
+install.packages(c("shiny", "DT", "dplyr", "lubridate", "RSQLite", "quarto"))
+```
+
+### Step 2: Run the Application
+
+Open R or RStudio in the project directory and run:
+
+```r
+shiny::runApp("app.R")
+```
+
+Or use the convenience script:
+
+```r
+source("run.R")
+```
+
+### Step 3: Add Your First Dinner
+
+1. In the app, go to the "Latest Week" tab
+2. Find the "Add New Dinner" panel on the right
+3. Fill in:
+   - **Date**: When the dinner happened
+   - **Menu**: What you cooked (e.g., "Grilled chicken, Rice, Vegetables")
+   - **Notes**: Any special details or highlights
+4. Click "Add Dinner"
+
+### Step 4: Get Family Feedback
+
+Share the app with family members and have them:
+
+1. **Rate the dinner**: Enter their name and select 1-5 stars
+2. **Leave comments**: Share what they thought about the meal
+3. **Make suggestions**: Go to the Suggestions tab for future meal ideas
+
+### Step 5: Generate a Report
+
+Click the "Generate Report" button to create a Quarto document that summarizes:
+- The menu
+- Average ratings
+- All comments
+- Date and notes
+
+The report is saved as `weekly_dinner_YYYY_MM_DD.qmd`
+
+### Tips for Success
+
+- **Regular Updates**: Make it a habit to add dinners right after they happen
+- **Encourage Participation**: Get everyone to rate and comment
+- **Review History**: Use the "Dinner History" tab to see past meals
+- **Plan Ahead**: Check the Suggestions tab for inspiration
+
+### Troubleshooting
+
+**App won't start?**
+- Check that all packages are installed
+- Make sure you're in the correct directory
+
+**Database errors?**
+- Delete `dinner_data.db` and restart the app to create a fresh database
+
+**Quarto report not generating?**
+- Ensure `weekly_dinner_template.qmd` exists in the same directory as `app.R`
+
+---
+
+Enjoy tracking your family dinners! 🍽️

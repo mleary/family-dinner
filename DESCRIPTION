@@ -1,0 +1,20 @@
+Package: familydinner
+Type: Shiny Application
+Title: Family Dinner Weekly Tracker
+Version: 0.1.0
+Authors@R: person("Family", "User", email = "family@example.com", role = c("aut", "cre"))
+Description: A Shiny application for tracking weekly family dinners with support for 
+    Quarto report generation, user ratings, comments, and suggestions.
+License: MIT + file LICENSE
+Depends:
+    R (>= 4.0.0)
+Imports:
+    shiny (>= 1.7.0),
+    DT (>= 0.20),
+    dplyr (>= 1.0.0),
+    lubridate (>= 1.8.0),
+    RSQLite (>= 2.2.0),
+    quarto (>= 1.2)
+Suggests:
+    testthat (>= 3.0.0)
+Encoding: UTF-8

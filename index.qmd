@@ -1,0 +1,59 @@
+---
+title: "Family Dinner Tracker"
+format: html
+---
+
+## Welcome to Family Dinner Tracker!
+
+This is your central hub for tracking weekly family dinners, sharing feedback, and planning future meals.
+
+### Features
+
+- **Weekly Tracking**: Record details about each week's dinner
+- **Interactive Ratings**: Family members can rate each dinner (1-5 stars)
+- **Comments**: Share thoughts and feedback about meals
+- **Suggestions**: Submit ideas for future dinners
+- **Quarto Reports**: Generate beautiful reports for each week's dinner
+
+### Getting Started
+
+1. Install required R packages (see README.md)
+2. Run the Shiny app: `shiny::runApp("app.R")`
+3. Add your first dinner entry
+4. Invite family members to rate and comment
+5. Generate weekly reports using the Quarto template
+
+### How to Use
+
+#### Adding a Dinner
+
+Navigate to the "Latest Week" tab and use the "Add New Dinner" panel:
+- Select the dinner date
+- Enter the menu items
+- Add any special notes or highlights
+
+#### Rating and Commenting
+
+After a dinner is added:
+- Family members can submit ratings (1-5 stars)
+- Leave comments about what they enjoyed
+- Share constructive feedback
+
+#### Making Suggestions
+
+Use the "Suggestions" tab to:
+- Submit ideas for future menus
+- Suggest improvements or themes
+- Request favorite dishes
+
+#### Generating Reports
+
+Click "Generate Report" to create a Quarto document that includes:
+- Menu details
+- Average ratings
+- All comments and feedback
+- Summary of the week's dinner
+
+---
+
+*Happy cooking and eating together!*

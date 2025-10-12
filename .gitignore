@@ -47,3 +47,12 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# SQLite database files
+*.db
+*.db-journal
+
+# Quarto output
+_output/
+*_files/
+*.html

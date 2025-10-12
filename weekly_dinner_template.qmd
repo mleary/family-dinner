@@ -1,0 +1,46 @@
+---
+title: "Family Dinner - {{DATE}}"
+format: 
+  html:
+    toc: true
+    toc-depth: 2
+    code-fold: true
+    theme: cosmo
+date: {{DATE}}
+---
+
+## This Week's Menu
+
+{{MENU}}
+
+## Notes
+
+{{NOTES}}
+
+## Ratings & Feedback
+
+- **Average Rating:** {{AVG_RATING}} / 5
+- **Number of Ratings:** {{NUM_RATINGS}}
+- **Number of Comments:** {{NUM_COMMENTS}}
+
+## Summary
+
+This week's family dinner was held on {{DATE}}. 
+
+### What We Made
+
+We prepared: {{MENU}}
+
+### Highlights
+
+{{NOTES}}
+
+### Family Feedback
+
+The dinner received {{NUM_RATINGS}} rating(s) with an average of {{AVG_RATING}} out of 5 stars.
+
+Family members shared {{NUM_COMMENTS}} comment(s) about the meal.
+
+---
+
+*Generated automatically from the Family Dinner Tracker app*

@@ -1,0 +1,18 @@
+project:
+  type: website
+  output-dir: _output
+
+website:
+  title: "Family Dinner Tracker"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Latest Week"
+        href: latest.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
