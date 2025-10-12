@@ -56,3 +56,10 @@ rsconnect/
 _output/
 *_files/
 *.html
+
+# Generated weekly reports (keep template)
+weekly_dinner_*.qmd
+!weekly_dinner_template.qmd
+
+# Test artifacts
+test_dinner_data.db

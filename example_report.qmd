@@ -1,0 +1,65 @@
+---
+title: "Family Dinner - 2025-10-05"
+format: 
+  html:
+    toc: true
+    toc-depth: 2
+    code-fold: true
+    theme: cosmo
+date: 2025-10-05
+---
+
+## This Week's Menu
+
+Spaghetti with meat sauce, Caesar salad, Garlic bread
+
+## Notes
+
+Great family dinner! Everyone helped with cooking. Kids loved the garlic bread.
+
+## Ratings & Feedback
+
+- **Average Rating:** 4.7 / 5
+- **Number of Ratings:** 3
+- **Number of Comments:** 2
+
+## Summary
+
+This week's family dinner was held on 2025-10-05. 
+
+### What We Made
+
+We prepared: Spaghetti with meat sauce, Caesar salad, Garlic bread
+
+### Highlights
+
+Great family dinner! Everyone helped with cooking. Kids loved the garlic bread.
+
+### Family Feedback
+
+The dinner received 3 rating(s) with an average of 4.7 out of 5 stars.
+
+Family members shared 2 comment(s) about the meal.
+
+### Individual Ratings
+
+| Family Member | Rating | Comment |
+|--------------|--------|---------|
+| Mom | ⭐⭐⭐⭐⭐ | The sauce turned out perfect! Will use this recipe again. |
+| Dad | ⭐⭐⭐⭐ | - |
+| Emma | ⭐⭐⭐⭐⭐ | Can we make extra garlic bread next time? It was so good! |
+
+### What Worked Well
+
+- Family participation in cooking
+- Popular menu items (especially garlic bread!)
+- Great sauce recipe to keep
+
+### Ideas for Next Time
+
+- Make extra garlic bread
+- Consider variations on the sauce
+
+---
+
+*Generated automatically from the Family Dinner Tracker app*
